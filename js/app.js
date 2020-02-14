@@ -1,4 +1,4 @@
-$(function() {
+jQuery(function($) {
 
   moment.locale('fr');
   var compareMilli = function (a, b) {
