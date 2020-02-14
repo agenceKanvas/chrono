@@ -11,7 +11,7 @@ jQuery(function($) {
   var nowMilli = moment(now.getDate() + '/' + (now.getMonth() + 1) + '/' + now.getFullYear, 'DD/MM/YYYY').valueOf();
 
   $.ajax({
-      url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSIxyxYhDcHSNTUY0QeMZ7kc-0huBV8Jaljg9ukVsn47_imoaEm5rZ5oJ5sSgBeKkKe939sNLr9hidO/pub?gid=0&single=true&output=tsv',
+      url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRjJZ9d51pCdyRVahjuurSY2LbEhZnFU-93N4BAt_-Y4pysOcEw7dbMOOADbqSCvABCF4hegMEElK8c/pub?gid=592949326&single=true&output=tsv',
       success   : function(res){
 
           var data = d3_dsv.tsvParse(res, function(d, i) {
